@@ -39,6 +39,7 @@ p{
      right: 0;
      display: flex;
      justify-content: space-between;
+ 
     
  }
 
@@ -52,7 +53,6 @@ p{
 }
 
  header nav ul{
-  padding-right: 6rem;
   list-style: none;
  }
 
@@ -81,6 +81,7 @@ p{
   background:#e7daeb;
   position: absolute;
   border-radius: 5px;
+  z-index: 1000;
 }
 
 header nav ul li:hover .children{
@@ -89,6 +90,7 @@ header nav ul li:hover .children{
 
 header nav ul li .children li{
     display: block;
+    border-bottom: 1px solid rgba(0, 0, 0,.5);
 }
 
 header nav ul li .children li a{
@@ -113,13 +115,35 @@ header nav ul li .children li a{
 @media only screen and (max-width:768px){
 
     header nav {
-        display: none;
+       width: 80%;
+       top: 58px;
+       right: 100%;
     }
 
    .menu-responsi{
        display:block;
+       position: fixed;
+       right: 0;
+       top: 0;
+       left: 0;
+       background:#BCB2BF;
+       height: 58px;
+
    }
    
+   .menu-responsi .icono{
+       display: block;
+       padding-right: 30px;
+       padding-top: 15px;
+       color: black;
+       font-size: 40px;
+     
+   }
+   
+   .menu-responsi span{
+       float: right;
+     
+   }
 }
 
 
