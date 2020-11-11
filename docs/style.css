@@ -14,6 +14,12 @@ font-size: 1.3rem;
 line-height: 1.6em;
 }
 
+.container{
+    width: 85%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
 img.portada{
     width: 100%;
     max-width: 1500px;
@@ -24,63 +30,74 @@ p{
     margin-bottom: 1.6em;
 }
 
- .container{
-     width: 85%;
-     max-width: 1500px;
-     margin: 0 auto;
- }
-
- .header{
+ header nav{
      background:#BCB2BF;
-     height: 65px;
      box-shadow: 1px 3px 1px rgba(0, 0, 0,.3);
      position: fixed;
      left: 0;
      top: 0;
      right: 0;
-    
- }
-.icono{
-    display: none;
-}
- .header a{
-     color: black;
-     text-decoration: none;
- }
- .logo-nav-container{
      display: flex;
      justify-content: space-between;
-     flex-wrap: wrap;
+    
  }
- img.logo{
-    width: 150px;
-    height: 105px;
-    position: relative;
-}
- .navigation ul{
-     margin: 0;
-     padding: 0;
-     list-style: none;
- }
- .navigation ul li {
-     display: inline-block;
- }
- .navigation ul li a{
-     display: block;
-     padding: 1rem 1.5rem ;
-     transition: all 0.4s ;
-     border-radius: 5px;
 
+.menu-responsi{
+    display: none;
+}
+
+ img.logo{
+    width: 100px;
+    height: 58px;
+}
+
+ header nav ul{
+  padding-right: 6rem;
+  list-style: none;
  }
- .navigation ul li a:hover{
+
+ header nav ul li {
+     display: inline-block;
+     position: relative;
+ }
+
+ header nav ul li a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem 1.5rem ;
+    transition: all 0.4s ;
+    border-radius: 5px;
+}
+
+ header nav ul li a:hover{
     background: #89828f;
      color: #8600ec;
 
  }
 
+ header nav ul li .children{
+  display: none;
+  background:#e7daeb;
+  position: absolute;
+  border-radius: 5px;
+}
+
+header nav ul li:hover .children{
+    display: block;
+}
+
+header nav ul li .children li{
+    display: block;
+}
+
+header nav ul li .children li a{
+    padding: 0.2rem  1.2rem;
+
+}
 
 .main{
-    padding-top: 4rem;
+    padding-top: 3.7rem;
 }
 
 .footer{
@@ -95,42 +112,13 @@ p{
 
 @media only screen and (max-width:768px){
 
-    .icono{
-        display: block;
-        cursor: pointer;
-        font-size: 60px;
-        padding-top: 1rem;
-      
-    }
-    img.logo{
-        width: 119px;
-        height: 69px;
-        position: relative;
-    }
-    .navigation{
-        width: 100%;
-        background:#BCB2BF;
-        text-align: end;
-    }
-    .navigation ul li {
-        display: block;
-
-
+    header nav {
+        display: none;
     }
 
-    .navigation ul li a{
-        display: block;
-        padding:  0.5rem ;
-        transition: all 0.4s ;
-        border-radius: 5px;
-        right: 0;
-   
-    }
-    .navigation ul li a:hover{
-       background: #89828f;
-        color: #8600ec;
-   
-    }
+   .menu-responsi{
+       display:block;
+   }
    
 }
 
