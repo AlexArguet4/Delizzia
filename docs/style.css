@@ -93,10 +93,15 @@ p{
  }
 .footer{
     background: rgb(94, 90, 90);
-    padding: 2rem 0;
+    padding: 2rem 2rem;
     color: white;
    text-align: center;
-   padding-top: 3rem;
+
+   left: 0;
+   right: 0;
+   bottom: 0;
+   
+
 }
 
 
@@ -116,8 +121,8 @@ p{
         width: 180px;
         background: #BCB2BF;
         display: list-item;
-        right: -10vh; 
-        top: 58px;
+        right: -11vh; 
+        top: 55px;
         transition: all 0.9s;
         border-radius: 5px;
         text-align: center;
