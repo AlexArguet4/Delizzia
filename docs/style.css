@@ -62,7 +62,7 @@ img.logo{
 }
 
 .btn_menu{
-    margin-right: 30px;
+    margin-right: 20px;
     font-size: 40px;
     color:black;
     cursor: pointer;
@@ -110,7 +110,7 @@ img.logo{
     img.logo{
         width: 90px;
         height: 55px; 
-        margin-left: 30px;
+        margin-left: 20px;
     }
 
 }
