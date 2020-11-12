@@ -118,7 +118,7 @@ p{
         display: list-item;
         right: -10vh; 
         top: 58px;
-        transition: all .4s;
+        transition: all 0.9s;
         border-radius: 5px;
         text-align: center;
         display: none;
