@@ -37,6 +37,7 @@ img.logo{
     width: 100px;
     height: 65px; 
     margin-left: 60px;
+ 
 }
 
 .menu_items{
@@ -64,6 +65,40 @@ img.logo{
     background: #89828f;
     color: #500f81;
 }
+
+
+.caret{
+    position: relative;
+    top: 4px;
+    margin-left: 5px;
+   
+}
+.menu_items li:hover .children{
+    display: block;
+}
+.children {
+    position: absolute;
+    display: none;
+    background-color:#d8c4df;
+    list-style: none;
+    transition: all 1s;
+}
+
+.children li {
+  margin: 0 ;
+}
+
+.children li a{
+    text-align: center;
+    padding: 7px 30px;
+    font-size: medium;
+    border-radius: 0; 
+    color: rgb(46, 46, 46);
+}
+ .children li a:hover {
+    color: #7e1bc9;
+ }
+
 
 .btn_menu{
     margin-right: 20px;
@@ -140,7 +175,9 @@ p{
     .menu_items li a {
       font-weight: bold;
     }
-   
+   .children {
+       position: relative;
+   }
     img.logo{
         width: 90px;
         height: 55px; 
