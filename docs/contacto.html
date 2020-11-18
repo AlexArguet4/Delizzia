@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts.css">
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="contact_style.css">
     <link rel="shortcut icon" href="logo.png" type="image/x-icon">
 </head>
 <body>
@@ -20,10 +21,10 @@
                     <li class="submenu">
                          <a href="#"> Productos <span class="caret icon-caret-down"></span> </a> 
                          <ul class="children">
-                             <li><a href="#">Pasteles</a></li>
-                             <li><a href="#">Tres leches</a></li>
-                             <li><a href="#">Galletas</a></li>
-                             <li><a href="#">Cupcakes</a></li>
+                             <li><a href="pasteles.html">Pasteles</a></li>
+                             <li><a href="tresleches.html">Tres leches</a></li>
+                             <li><a href="galletas.html">Galletas</a></li>
+                             <li><a href="cupcakes.html">Cupcakes</a></li>
                          </ul>
                     </li>
                     <li> <a href="conocenos.html"> Conócenos</a>  </li>
@@ -34,23 +35,56 @@
     </header>
 
     <main class="main">
+        <div class="background">
+            <h1 class="container">Ponte en contacto</h1>
+         </div>
+        <div class="infocontac container">
+        
+         <div class="contacto ">
+             <div class="contactoarea container">
+             <h2>Información de contacto</h2>
+             <p><strong> Teléfono:</strong> 0000-0000</p>
+             <p><strong>Oficinas:</strong> ------- --------- -----</p>
+             <p><strong>Horarios de atención:</strong> <br>
+             <strong>  - Lunes a viernes:</strong> 8 a.m - 5 p.m <br>
+            <strong>   - Sabado y domingo:</strong> 8 a.m - 12 m.d
+            </p>
+            <p><strong>Redes sociales:</strong></p>
+            <div class="redsocial"><span class=" iconos icon-instagram"></span><span class=" iconos icon-facebook2"></span><span class = "iconos icon-whatsapp"></span><span class="iconos icon-twitter"></span>
+            </div>
+            </div>
+         </div>
 
-       <!-- <div  ><img class ="portada"src="portada.png" alt=""></div>-->
-        
-        <div class="container">
-           
-            
-            <h2>Esta es la pagina de contacto </h2>
-            <h2>         |</h2>
-            <h2>         V</h2>
-         
-           
-        
-        
+
+         <div class="mensaje container">
+             <div class="mensajearea ">
+             <h2 >Envíanos un mensaje</h2>
+             <form>
+                  <div class="lbl">
+                    <label for="nombre">¿Cual es tu nombre?</label><br>
+                    <input name="username" id ="" placeholder="Juan rivas">
+                   </div>
+                   <div class="lbl">
+                    <label for="correo">¿Cual es tu correo?</label><br>
+                    <input type="email" name="email" id="" placeholder="juanrivas@proveedor.com">
+                   </div>
+                   <div class="lbl">
+                       <label for="mensaje">Mensaje</label><br>
+                       <textarea name="texarea" id="" placeholder="Escribe tu mensaje aqui..." cols="30" rows="10"></textarea>
+                   </div>
+                   <div>
+                    <input type="submit" value="Enviar mensaje">
+                   </div>
+             </form>
+            </div>
         </div>
+
+        </div>
+      
     </main>
     <footer class="footer">
-        <p class="foot" >Desarrollado por <span class="alex"><a href="https://www.facebook.com/AlexArguet4" target="_blank">Alex Argueta</a> </span></p>
+        <p class="foot" >Desarrollado por <span class="alex"><a href="https://www.facebook.com/AlexArguet4" target="_blank">JAAR</a> 
+        </span></p>
     </footer>
   <script src="app.js"></script>
 </body>

@@ -16,6 +16,12 @@ font-size: 1.3rem;
 line-height: 1.6em;
 }
 
+.container{
+    width: 85%;
+    max-width: 1500px;
+    margin: 0 auto;
+    min-height: calc(100vh - 65px - 32.8px);
+}
 
 
 .menu{
@@ -82,6 +88,7 @@ img.logo{
     background-color:#d8c4df;
     list-style: none;
     transition: all 1s;
+    border-radius: 8px;
 }
 
 .children li {
@@ -116,16 +123,30 @@ img.portada{
     width: 100%;
     margin:0 auto;
 }
+.background{
+    background:#cdc0eb;
+    height: 100px;
+    width: 100%;
+    margin-top: 15px; 
+}
+.background h1{
+    padding-top: 30px;
+    color: aliceblue;  
+}
+
+
+ h2 {
+    padding-top:40px ;
+    padding-bottom:40px;
+    color: rgb(36, 36, 109);
+    font-weight: bold;
+}
+
 p{
     margin-bottom: 1.6em;
 }
 
- .container{
-     width: 85%;
-     max-width: 1500px;
-     margin: 0 auto;
-     min-height: calc(100vh - 65px - 32.8px);
- }
+
 
 .footer{
     background: rgb(94, 90, 90);
